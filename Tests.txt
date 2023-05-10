@@ -1,0 +1,39 @@
+hello: date > stuff.txt
+hello: who >> stuff.txt
+hello: cat stuff.txt
+Sun 16 Apr 2023 02:52:48 AM IDT
+rashipachino tty7         2023-04-15 23:32 (:0)
+hello: ^[[A
+hello: cat stuff.txt
+Sun 16 Apr 2023 02:52:48 AM IDT
+rashipachino tty7         2023-04-15 23:32 (:0)
+hello: prompt = shalom
+shalom: echo hey there
+hey there
+shalom: $noah = weiss
+shalom: echo $noah
+weiss
+read rashi
+pachino
+shalom: echo $rashi
+pachino
+shalom: !!
+pachino
+shalom: echo $?
+0
+shalom: ls -l | grep abcdefg
+shalom: echo $?
+256
+shalom: if date | grep Sun
+then
+echo it's sunday
+else
+echo its not sunday
+fi
+it's sunday
+shalom: ls nofile 2> errs.txt
+shalom: cat errs.txt
+ls: cannot access 'nofile': No such file or directory
+shalom: ^CYou Typed Control-C!
+
+shalom: quit
